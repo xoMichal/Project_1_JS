@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css" />  <!--css file link -->
+    <title>Project1 JS</title>
+</head>
+<body>
+    <div class="cointainer">
+        <div class="logo"> <i class="fas fa-wallet"></i></div>
+        <div class="acountBalance"> Wprowadź dane aby wyświetlić saldo</div>
+        <div class="main">
+            <div class="incomes">
+                <h2>Przychody</h2>
+                <div id="createToolsIncome">
+                  <form id="add-income">
+                    <input type="text" name = "name"placeholder="Wpisz nazwę przychodu"/>
+                    <input type="number" name="amount" placeholder="Wpisz kwotę przychodu"/>
+                    <button type="submit" class="add"> Dodaj</button>
+                    </form>
+                </div>
+                <div class="placeForIncomes">
+                    <ul id="incomeList">
+                        
+                    </ul>
+                 </div> 
+                    <div class="incomeSum"> Przychody wyniosły...</div>
+                
+            </div>
+
+            <div class="outcomes"> 
+                <h2>Wydatki</h2>
+                <div id="createToolsOutcome">
+                  <form id = "add-outcome">
+                    <input type="text" name = "name" placeholder="Wpisz nazwę wydatku"/>
+                    <input type="number" name="amount" placeholder="Wpisz kwotę wydatku"/>
+                    <button type="submit" class="add"> Dodaj</button>
+                    </form>
+                </div>
+                <div class="placeForOutcomes">
+                    <ul id="outcomeList">
+                        
+                    </ul>
+
+                    </div>
+                    <div class="outcomeSum"> Wydatki wyniosły...</div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d61d3b27e9.js" crossorigin="anonymous"></script> <!--icons link -->
+    <script src="index.js"></script>
+</body>
+</html>
